@@ -3,7 +3,7 @@ title: "O que aprendi a coordenar 24 agências que gostava de ter sabido antes d
 date: 2026-09-22
 tags: ["agencia"]
 excerpt: "Uma agência não vive do talento do dono — vive do sistema que o dono constrói à sua volta."
-image: /assets/img/galeria/summit-2026/foto-3.jpg
+image: /assets/img/galeria/summit-2026/foto-47.jpg
 ---
 
 Coordeno hoje 24 agências na Região Sul. Se pudesse voltar

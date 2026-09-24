@@ -3,7 +3,7 @@ title: "Porque escolhi ficar em vez de abrir por conta própria"
 date: 2026-09-23
 tags: ["agencia"]
 excerpt: "Quem entra sozinho gasta os primeiros anos a construir infraestrutura. Quem entra numa rede gasta os primeiros anos a construir negócio."
-image: /assets/img/galeria/5-aniversario/foto-2.jpg
+image: /assets/img/galeria/5-aniversario/foto-23.jpg
 ---
 
 Antes de ser coordenador, tive a tentação de abrir uma agência
