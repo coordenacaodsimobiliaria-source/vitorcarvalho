@@ -2,7 +2,7 @@
 title: "Inauguração DSI Covilhã"
 date: 2026-09-19
 evento: "Inauguração DS Imobiliária Covilhã"
-capa: /assets/img/galeria/inauguracao-covilha/foto-4.jpg
+capa: /assets/img/galeria/inauguracao-covilha/foto-34.jpg
 fotos:
   - /assets/img/galeria/inauguracao-covilha/foto-1.jpg
   - /assets/img/galeria/inauguracao-covilha/foto-2.jpg
@@ -14,4 +14,105 @@ fotos:
   - /assets/img/galeria/inauguracao-covilha/foto-8.jpg
   - /assets/img/galeria/inauguracao-covilha/foto-9.jpg
   - /assets/img/galeria/inauguracao-covilha/foto-10.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-11.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-12.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-13.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-14.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-15.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-16.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-17.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-18.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-19.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-20.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-21.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-22.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-23.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-24.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-25.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-26.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-27.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-28.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-29.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-30.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-31.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-32.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-33.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-34.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-35.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-36.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-37.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-38.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-39.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-40.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-41.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-42.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-43.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-44.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-45.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-46.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-47.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-48.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-49.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-50.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-51.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-52.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-53.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-54.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-55.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-56.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-57.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-58.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-59.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-60.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-61.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-62.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-63.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-64.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-65.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-66.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-67.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-68.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-69.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-70.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-71.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-72.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-73.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-74.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-75.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-76.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-77.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-78.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-79.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-80.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-81.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-82.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-83.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-84.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-85.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-86.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-87.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-88.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-89.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-90.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-91.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-92.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-93.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-94.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-95.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-96.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-97.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-98.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-99.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-100.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-101.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-102.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-103.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-104.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-105.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-106.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-107.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-108.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-109.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-110.jpg
+  - /assets/img/galeria/inauguracao-covilha/foto-111.jpg
 ---

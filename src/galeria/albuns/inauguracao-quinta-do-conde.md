@@ -2,7 +2,7 @@
 title: "Inauguração DSI Quinta do Conde"
 date: 2026-09-18
 evento: "Inauguração DS Imobiliária Quinta do Conde"
-capa: /assets/img/galeria/inauguracao-quinta-do-conde/foto-5.jpg
+capa: /assets/img/galeria/inauguracao-quinta-do-conde/foto-21.jpg
 fotos:
   - /assets/img/galeria/inauguracao-quinta-do-conde/foto-1.jpg
   - /assets/img/galeria/inauguracao-quinta-do-conde/foto-2.jpg
@@ -14,4 +14,46 @@ fotos:
   - /assets/img/galeria/inauguracao-quinta-do-conde/foto-8.jpg
   - /assets/img/galeria/inauguracao-quinta-do-conde/foto-9.jpg
   - /assets/img/galeria/inauguracao-quinta-do-conde/foto-10.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-11.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-12.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-13.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-14.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-15.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-16.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-17.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-18.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-19.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-20.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-21.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-22.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-23.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-24.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-25.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-26.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-27.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-28.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-29.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-30.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-31.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-32.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-33.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-34.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-35.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-36.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-37.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-38.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-39.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-40.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-41.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-42.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-43.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-44.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-45.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-46.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-47.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-48.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-49.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-50.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-51.jpg
+  - /assets/img/galeria/inauguracao-quinta-do-conde/foto-52.jpg
 ---
