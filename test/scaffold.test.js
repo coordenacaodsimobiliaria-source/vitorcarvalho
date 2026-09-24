@@ -6,7 +6,9 @@ test.before(() => {
   buildSite();
 });
 
-test("build produces a home page with the scaffold marker", () => {
+test("build produces a home page with proper layout structure", () => {
   const html = readOutput("index.html");
-  assert.match(html, /Site em constru/);
+  assert.match(html, /<header class="site-header">/);
+  assert.match(html, /<main>/);
+  assert.match(html, /<footer class="site-footer">/);
 });
