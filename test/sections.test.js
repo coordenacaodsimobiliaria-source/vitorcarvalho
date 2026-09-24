@@ -1,5 +1,7 @@
 const test = require("node:test");
 const assert = require("node:assert");
+const fs = require("node:fs");
+const path = require("node:path");
 const { buildSite, readOutput } = require("./helpers.js");
 
 test.before(() => {
@@ -31,16 +33,20 @@ test("consultor and agencia collections are disjoint and match the seeded posts"
 });
 
 test("every post belongs to exactly one audience collection", () => {
-  // Invariant: collections.post is the full set (from Task 3's directory-level tag);
-  // consultorCount + agenciaCount should equal its size, so a post with
-  // neither tag (or both) is caught instead of silently invisible.
-  // There are exactly 2 seeded posts (Task 3): comecar-consultor.md (tag
-  // consultor) and abrir-agencia.md (tag agencia). Assert the two audience
-  // collections together account for both, so a future post with no
-  // audience tag (or with both) would break this instead of going unnoticed.
+  // Invariant: every post in src/posts/ (independent source of truth)
+  // must appear in exactly one audience collection. totalPosts comes
+  // from the filesystem, independent of the two page reads below —
+  // so a post with neither tag (or both) breaks this instead of
+  // going undetected.
+  const postsDir = path.join(__dirname, "..", "src", "posts");
+  const totalPosts = fs
+    .readdirSync(postsDir)
+    .filter((f) => f.endsWith(".md")).length;
+
   const consultorHtml = readOutput("quero-ser-consultor/index.html");
   const agenciaHtml = readOutput("quero-abrir-agencia/index.html");
   const consultorCount = (consultorHtml.match(/class="post-card"/g) || []).length;
   const agenciaCount = (agenciaHtml.match(/class="post-card"/g) || []).length;
-  assert.strictEqual(consultorCount + agenciaCount, 2);
+
+  assert.strictEqual(consultorCount + agenciaCount, totalPosts);
 });
