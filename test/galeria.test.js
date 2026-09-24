@@ -14,8 +14,8 @@ test("galeria listing shows the Summit 2026 album", () => {
 
 test("album page renders all its photos with lightbox links", () => {
   const html = readOutput("galeria/albuns/summit-2026/index.html");
-  assert.match(html, /foto-1\.svg/);
-  assert.match(html, /foto-2\.svg/);
+  assert.match(html, /foto-1\.jpg/);
+  assert.match(html, /foto-2\.jpg/);
   assert.match(html, /data-lightbox/g);
 });
 
