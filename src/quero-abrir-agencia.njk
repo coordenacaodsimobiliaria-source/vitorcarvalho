@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+title: Quero abrir Agência
+---
+<section class="section-intro">
+  <h1>Quero abrir Agência</h1>
+  <p>
+    O que aprendi a coordenar 24 agências na Região Sul, para quem está a
+    pensar abrir a própria agência DS Imobiliária.
+  </p>
+</section>
+<section class="post-list">
+  {% for post in collections.agencia | reverse %}
+  <a class="post-card" href="{{ post.url }}">
+    <h2>{{ post.data.title }}</h2>
+    <p>{{ post.data.excerpt }}</p>
+  </a>
+  {% endfor %}
+</section>

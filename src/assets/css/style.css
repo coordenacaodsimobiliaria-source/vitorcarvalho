@@ -130,3 +130,44 @@ main {
     align-items: flex-start;
   }
 }
+
+.section-intro {
+  padding: 40px 0 16px;
+}
+
+.section-intro h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.section-intro p {
+  color: var(--color-neutral);
+  max-width: 640px;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 16px 0 48px;
+}
+
+.post-card {
+  display: block;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #E3E6EC;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.post-card h2 {
+  color: var(--color-primary);
+  font-size: 18px;
+  margin: 0 0 6px;
+}
+
+.post-card p {
+  margin: 0;
+  color: var(--color-neutral);
+}
