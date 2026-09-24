@@ -10,7 +10,8 @@ test("contact form is wired for Netlify Forms with a honeypot field", () => {
   const html = readOutput("contacto/index.html");
   assert.match(html, /data-netlify="true"/);
   assert.match(html, /name="contacto"/);
-  assert.match(html, /netlify-honeypot/);
+  assert.match(html, /netlify-honeypot="bot-field"/);
+  assert.match(html, /name="bot-field"/);
 });
 
 test("contact form has all five required fields", () => {
