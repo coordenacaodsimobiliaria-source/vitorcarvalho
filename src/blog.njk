@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+title: Blog
+permalink: /blog/
+---
+<section class="section-intro">
+  <h1>Blog</h1>
+  <p>Opiniões e histórias sobre mediação imobiliária, para quem quer começar ou crescer.</p>
+</section>
+
+{% set allPosts = collections.post | reverse %}
+{% if allPosts.length > 0 %}
+<a class="post-featured" href="{{ allPosts[0].url }}">
+  {% if allPosts[0].data.image %}<img src="{{ allPosts[0].data.image }}" alt="" />{% endif %}
+  <div class="post-featured-body">
+    <span class="post-featured-label">Último artigo</span>
+    <h2>{{ allPosts[0].data.title }}</h2>
+    <p>{{ allPosts[0].data.excerpt }}</p>
+  </div>
+</a>
+{% endif %}
+
+<section class="post-list">
+  {% for post in allPosts %}
+  {% if not loop.first %}
+  <a class="post-card" href="{{ post.url }}">
+    {% if post.data.image %}<img class="post-card-image" src="{{ post.data.image }}" alt="" />{% endif %}
+    <div class="post-card-body">
+      <h2>{{ post.data.title }}</h2>
+      <p>{{ post.data.excerpt }}</p>
+    </div>
+  </a>
+  {% endif %}
+  {% endfor %}
+</section>

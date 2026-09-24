@@ -1,4 +1,30 @@
 <footer class="site-footer">
+  <div class="newsletter-band">
+    <div class="newsletter-inner">
+      <div class="newsletter-text">
+        <h2>Recebe os novos artigos por email</h2>
+        <p>Um email quando publico algo novo. Sem spam, cancelas quando quiseres.</p>
+      </div>
+      <form
+        class="newsletter-form"
+        action="{{ site.newsletterFormAction }}"
+        method="POST"
+        target="_blank"
+      >
+        <div class="newsletter-form-row">
+          <label for="newsletter-email" class="visually-hidden">Email</label>
+          <input id="newsletter-email" type="email" name="EMAIL" placeholder="o-teu-email@exemplo.pt" required />
+          <button type="submit">Subscrever</button>
+        </div>
+        <label class="newsletter-consent">
+          <input type="checkbox" name="consent" required />
+          Aceito receber a newsletter e concordo com a
+          <a href="/politica-privacidade/">Política de Privacidade</a>.
+        </label>
+      </form>
+    </div>
+  </div>
+
   <div class="footer-inner">
     <div class="footer-col">
       <p class="footer-brand-name">{{ site.name }}</p>
@@ -19,5 +45,8 @@
       </div>
     </div>
   </div>
-  <p class="footer-copyright">&copy; {{ nowYear }} {{ site.name }} — {{ site.tagline }}</p>
+  <p class="footer-copyright">
+    &copy; {{ nowYear }} {{ site.name }} — {{ site.tagline }} ·
+    <a href="/politica-privacidade/">Política de Privacidade</a>
+  </p>
 </footer>

@@ -619,3 +619,342 @@ main {
     padding: 0 20px 60px;
   }
 }
+
+/* ---------- Scroll reveal ---------- */
+
+.will-reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.will-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- Hover motion ---------- */
+
+.feature-media {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.feature-media img {
+  transition: transform 0.4s ease;
+}
+
+.feature-row:hover .feature-media img {
+  transform: scale(1.04);
+}
+
+.post-card {
+  overflow: hidden;
+}
+
+.post-card-image {
+  transition: transform 0.4s ease;
+}
+
+.post-card:hover .post-card-image {
+  transform: scale(1.05);
+}
+
+.album-card {
+  display: block;
+}
+
+.album-card img,
+.album-cover-placeholder {
+  transition: transform 0.4s ease;
+}
+
+.album-card:hover img {
+  transform: scale(1.05);
+}
+
+.site-nav a {
+  position: relative;
+}
+
+.site-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: -4px;
+  height: 2px;
+  background: #fff;
+  transition: right 0.25s ease;
+}
+
+.site-nav a:hover::after {
+  right: 0;
+}
+
+.btn-solid,
+.btn-outline {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-solid:hover,
+.btn-outline:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 20, 60, 0.22);
+}
+
+/* ---------- Signature statement ---------- */
+
+.signature-statement {
+  background: var(--color-surface);
+  padding: 72px 0;
+  text-align: center;
+}
+
+.signature-statement p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: clamp(22px, 3vw, 30px);
+  color: var(--color-text);
+  max-width: 760px;
+  margin: 0 auto 16px;
+  line-height: 1.4;
+}
+
+.signature-name {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+}
+
+/* ---------- Photo strip (Home) ---------- */
+
+.photo-strip {
+  padding: 64px 0;
+}
+
+.photo-strip-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.photo-strip-heading h2 {
+  font-size: 26px;
+  margin: 0;
+}
+
+.photo-strip-heading a {
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.photo-strip-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.photo-strip-grid a {
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.photo-strip-grid img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.photo-strip-grid a:hover img {
+  transform: scale(1.08);
+}
+
+@media (max-width: 800px) {
+  .photo-strip-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ---------- Blog featured post ---------- */
+
+.post-featured {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 32px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 8px 0 40px;
+}
+
+.post-featured img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+}
+
+.post-featured-body {
+  padding: 8px 32px 8px 0;
+}
+
+.post-featured-label {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.post-featured h2 {
+  font-size: 26px;
+  margin: 0 0 10px;
+}
+
+.post-featured p {
+  color: var(--color-neutral);
+  font-size: 16px;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .post-featured {
+    grid-template-columns: 1fr;
+  }
+
+  .post-featured-body {
+    padding: 0 20px 20px;
+  }
+}
+
+/* ---------- Newsletter ---------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.newsletter-band {
+  background: var(--color-primary);
+  padding: 48px 32px;
+}
+
+.newsletter-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.newsletter-text h2 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 0 8px;
+}
+
+.newsletter-text p {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  font-size: 14px;
+}
+
+.newsletter-form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.newsletter-form button {
+  padding: 12px 20px;
+  background: var(--color-accent);
+  color: #04263f;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.newsletter-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.newsletter-consent input {
+  margin-top: 3px;
+}
+
+.newsletter-consent a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .newsletter-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .newsletter-form-row {
+    flex-direction: column;
+  }
+}
+
+/* ---------- Legal text (Política de Privacidade) ---------- */
+
+.legal-text {
+  max-width: 720px;
+  margin: 0 0 64px;
+}
+
+.legal-text h2 {
+  font-size: 19px;
+  margin: 32px 0 10px;
+  color: var(--color-primary);
+}
+
+.legal-text h2:first-child {
+  margin-top: 0;
+}
+
+.legal-text p,
+.legal-text li {
+  color: var(--color-neutral);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.legal-text ul {
+  padding-left: 20px;
+}
