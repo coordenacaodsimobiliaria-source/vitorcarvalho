@@ -1,4 +1,23 @@
 <footer class="site-footer">
-  <p>&copy; {{ nowYear }} {{ site.name }} — {{ site.tagline }}</p>
-  <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <p class="footer-brand-name">{{ site.name }}</p>
+      <p class="footer-tagline">{{ site.tagline }}</p>
+    </div>
+    <div class="footer-col">
+      <h3>Navegação</h3>
+      <nav class="footer-nav">
+        {% for item in site.nav %}
+        <a href="{{ item.url }}">{{ item.label }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="footer-col">
+      <h3>Contacto</h3>
+      <div class="footer-contact">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </div>
+    </div>
+  </div>
+  <p class="footer-copyright">&copy; {{ nowYear }} {{ site.name }} — {{ site.tagline }}</p>
 </footer>

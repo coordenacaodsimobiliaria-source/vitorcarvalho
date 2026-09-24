@@ -12,8 +12,11 @@ title: Quero abrir Agência
 <section class="post-list">
   {% for post in collections.agencia | reverse %}
   <a class="post-card" href="{{ post.url }}">
-    <h2>{{ post.data.title }}</h2>
-    <p>{{ post.data.excerpt }}</p>
+    {% if post.data.image %}<img class="post-card-image" src="{{ post.data.image }}" alt="" />{% endif %}
+    <div class="post-card-body">
+      <h2>{{ post.data.title }}</h2>
+      <p>{{ post.data.excerpt }}</p>
+    </div>
   </a>
   {% endfor %}
 </section>
