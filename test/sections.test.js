@@ -16,7 +16,7 @@ test("Quero ser Consultor page lists only the consultor post", () => {
 
 test("Quero abrir Agência page lists only the agencia post", () => {
   const html = readOutput("quero-abrir-agencia/index.html");
-  assert.match(html, /O que é preciso para abrir a tua agência DS Imobiliária/);
+  assert.match(html, /O que é preciso para abrir a tua própria agência imobiliária/);
   assert.doesNotMatch(html, /Porque decidi começar como consultor imobiliário/);
 });
 

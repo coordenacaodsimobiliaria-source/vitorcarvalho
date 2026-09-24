@@ -26,5 +26,4 @@ esquecido.
 Se estás a pensar mudar de carreira para mediação imobiliária, a pergunta
 que costumo fazer é simples: consegues aguentar seis meses sem grande
 retorno, só a construir uma base? Se sim, o resto aprende-se. Foi o que me
-aconteceu a mim, e hoje coordeno 24 agências na Região Sul da DS
-Imobiliária.
+aconteceu a mim, e hoje coordeno 24 agências na Região Sul.

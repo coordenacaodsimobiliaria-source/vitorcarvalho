@@ -6,7 +6,7 @@ excerpt: "Uma agência não vive do talento do dono — vive do sistema que o do
 image: /assets/img/galeria/summit-2026/foto-3.jpg
 ---
 
-Coordeno hoje 24 agências na Região Sul da DS Imobiliária. Se pudesse voltar
+Coordeno hoje 24 agências na Região Sul. Se pudesse voltar
 atrás e dar um conselho a quem está prestes a abrir a primeira, seria este:
 a agência não vive do dono, vive do sistema que o dono constrói.
 

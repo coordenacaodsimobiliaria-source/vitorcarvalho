@@ -13,5 +13,5 @@ test("consultor post page renders with its title", () => {
 
 test("agencia post page renders with its title", () => {
   const html = readOutput("posts/abrir-agencia/index.html");
-  assert.match(html, /O que é preciso para abrir a tua agência DS Imobiliária/);
+  assert.match(html, /O que é preciso para abrir a tua própria agência imobiliária/);
 });
