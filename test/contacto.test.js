@@ -1,6 +1,7 @@
 const test = require("node:test");
 const assert = require("node:assert");
 const { buildSite, readOutput } = require("./helpers.js");
+const site = require("../src/_data/site.js");
 
 test.before(() => {
   buildSite();
@@ -35,6 +36,12 @@ test("nome, email and mensagem are required fields", () => {
 
 test("direct email and WhatsApp links are present", () => {
   const html = readOutput("contacto/index.html");
-  assert.match(html, /href="mailto:vitorcarvalho@dsimobiliaria\.pt"/);
-  assert.match(html, /href="https:\/\/wa\.me\/351900000000"/);
+  const mailtoRegex = new RegExp(
+    `href="mailto:${site.email.replace(/\./g, "\\.")}"`
+  );
+  const whatsappRegex = new RegExp(
+    `href="https://wa\\.me/${site.whatsappNumber}"`
+  );
+  assert.match(html, mailtoRegex);
+  assert.match(html, whatsappRegex);
 });
