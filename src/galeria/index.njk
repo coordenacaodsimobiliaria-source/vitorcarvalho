@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+title: Galeria
+permalink: /galeria/
+---
+<section class="section-intro">
+  <h1>Galeria</h1>
+  <p>Momentos de eventos, inaugurações e outras iniciativas da DS Imobiliária Sul.</p>
+</section>
+<section class="album-grid-list">
+  {% for album in collections.album | reverse %}
+  <a class="album-card" href="{{ album.url }}">
+    {% if album.data.capa %}
+    <img src="{{ album.data.capa }}" alt="{{ album.data.title }}" loading="lazy" />
+    {% else %}
+    <div class="album-cover-placeholder" aria-hidden="true"></div>
+    {% endif %}
+    <h2>{{ album.data.title }}</h2>
+    <p>{{ album.data.evento }}</p>
+  </a>
+  {% endfor %}
+</section>

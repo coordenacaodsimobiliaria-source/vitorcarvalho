@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+---
+<article class="album">
+  <p class="album-date">{{ date | formatDate }}</p>
+  <h1>{{ title }}</h1>
+  {% if evento %}
+  <p class="album-evento">{{ evento }}</p>
+  {% endif %}
+  <div class="album-grid">
+    {% for foto in fotos %}
+    <a class="album-photo" href="{{ foto }}" data-lightbox>
+      <img src="{{ foto }}" alt="{{ title }} — foto {{ loop.index }}" loading="lazy" />
+    </a>
+    {% endfor %}
+  </div>
+</article>
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="Fechar">&times;</button>
+  <img class="lightbox-image" id="lightbox-image" src="" alt="" />
+</div>
+<script src="/assets/js/lightbox.js"></script>
