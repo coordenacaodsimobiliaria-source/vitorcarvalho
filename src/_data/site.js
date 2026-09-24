@@ -14,6 +14,9 @@ module.exports = {
   ],
   // Preenchido depois de criares a conta Brevo e configurares o formulário
   // de inscrição (Contacts > Forms > Create a subscription form) — copia o
-  // "action" do formulário gerado para aqui.
+  // "action" do formulário gerado para aqui. Nas definições desse
+  // formulário, configura o redirecionamento pós-submissão para
+  // https://<o-teu-site>/newsletter/obrigado/ em vez da página genérica do
+  // Brevo.
   newsletterFormAction: "https://PREENCHER.sibforms.com/serve/MTAxOTk5OTk5OTk5",
 };
