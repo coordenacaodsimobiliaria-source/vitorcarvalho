@@ -21,4 +21,10 @@ document.addEventListener("DOMContentLoaded", function () {
       lightbox.hidden = true;
     }
   });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && !lightbox.hidden) {
+      lightbox.hidden = true;
+    }
+  });
 });
