@@ -260,3 +260,49 @@ main {
   background: var(--color-surface);
   border-radius: 0 8px 8px 0;
 }
+
+.contact-direct {
+  display: flex;
+  gap: 16px;
+  margin: 8px 0 32px;
+  font-weight: 600;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 480px;
+  margin-bottom: 48px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-neutral);
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #E3E6EC;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.contact-form button {
+  align-self: flex-start;
+  padding: 10px 24px;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hidden-field {
+  position: absolute;
+  left: -9999px;
+}

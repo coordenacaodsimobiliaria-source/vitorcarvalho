@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+title: Contacto
+---
+<section class="section-intro">
+  <h1>Contacto</h1>
+  <p>Interessado em seres consultor ou abrir a tua própria agência? Fala comigo.</p>
+</section>
+
+<div class="contact-direct">
+  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+  <a href="https://wa.me/{{ site.whatsappNumber }}">WhatsApp</a>
+</div>
+
+<form
+  class="contact-form"
+  name="contacto"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+>
+  <input type="hidden" name="form-name" value="contacto" />
+  <p class="hidden-field">
+    <label>Não preencher: <input name="bot-field" /></label>
+  </p>
+
+  <label for="nome">Nome</label>
+  <input id="nome" type="text" name="nome" required />
+
+  <label for="email">Email</label>
+  <input id="email" type="email" name="email" required />
+
+  <label for="telefone">Telefone / WhatsApp</label>
+  <input id="telefone" type="tel" name="telefone" />
+
+  <label for="interesse">Área de interesse</label>
+  <select id="interesse" name="interesse">
+    <option value="consultor">Quero ser consultor</option>
+    <option value="agencia">Quero abrir agência</option>
+  </select>
+
+  <label for="mensagem">Mensagem</label>
+  <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
